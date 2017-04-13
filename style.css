@@ -1,0 +1,57 @@
+.flex-it {display: flex;}
+
+body {background-image: url("floral.jpg");/*background-image: linear-gradient(#5f856a, #abd2b6, #5f856a);*/}
+
+.container {width: 900px;
+            margin: auto;
+            border-radius: 15px;}
+
+.flex-col { flex-direction: column;}
+
+.flex-row {flex-direction: row;}
+
+.left {/*background-image: linear-gradient(#5f856a,#abd2b6);*/
+      padding: 30px;
+      width: 40%;}
+
+.right {flex-grow: 1;
+        /*background-image: linear-gradient(#5f856a,#abd2b6);*/
+        padding: 30px;}
+
+.head {text-align: center;
+      background-image: linear-gradient(#abd2b6, #5f856a);
+      border-color: #855252;
+      border-width: 5px;
+      border-style: solid;
+      margin: 5px;
+      border-radius: 15px;}
+
+.box-bg { background-image: linear-gradient(#5f856a, #abd2b6, #5f856a);
+*/background-color: #e9ffef;*/}
+
+.box-center {text-align: center;}
+
+.just-center {justify-content: center;}
+
+a {padding-bottom: 30px;}
+
+.box-padding {padding: 20px;
+              margin: 15px;
+              border-radius: 15px;}
+
+.box-border { border-color: #855252;
+              border-width: 5px;
+              border-style: solid;}
+
+h5 {font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    text-align: center;}
+
+h4 {
+  margin-top: 1em;
+  margin-bottom: 1em;}
+
+h1 {font-family: 'Great Vibes', cursive;
+    font-size: 60px;}
+
+p {font-family: 'Alegreya', serif;}
